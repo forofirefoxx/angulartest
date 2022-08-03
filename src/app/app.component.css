@@ -11,9 +11,9 @@
 }
 
 .resource-list ul {
-    text-align: left;
-    margin: 0 auto;
-    width: 300px;
+  text-align: left;
+  margin: 0 auto;
+  width: 300px;
 }
 
 .resource-list a {
@@ -21,15 +21,85 @@
   line-height: 30px;
 }
 
-footer {
-  bottom: 10px;
-  font-family: Helvetica, Arial, sans-serif;
-  margin: 0 auto;
-  width: 100%;
-  position: fixed;
-  text-align: center;
+.bg-yellow {
+  background: #f2c44d;
 }
 
-footer img {
-    width: 20px;
+.padding-title {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
+.expand-title{
+  height: 400px;
+}
+.text-title{
+  text-align: left;
+  align-self: center;
+}
+.mt-content{
+  margin-top: 50px;
+}
+
+h4 {
+  font-size: 4rem;
+}
+.hr{
+  color: #f3f3f3;
+}
+
+@media (max-width: 1200px) {
+  h4 {
+    font-size: 4rem;
+  }
+  .expand-title{
+    height: 400px;
+  }
+  .text-title{
+    text-align: left;
+    align-self: center;
+  }
+}
+
+
+@media (max-width: 992px) {
+  h4 {
+    font-size: 3rem;
+  }
+  .expand-title{
+    height: 400px;
+  }
+  .text-title{
+    text-align: left;
+    align-self: center;
+  }
+}
+
+@media (max-width: 768px) {
+  h4 {
+    font-size: 2.5rem;
+  }
+  .expand-title{
+    height: 200px;
+  }
+  .text-title{
+    text-align: left;
+    align-self: center;
+  }
+
+}
+
+
+@media (max-width: 576px) {
+  h4 {
+    font-size: 2rem;
+  }
+  .expand-title{
+    height: auto;
+  }
+  .text-title{
+    text-align: left;
+    align-self: center;
+  }
+}
+
+
